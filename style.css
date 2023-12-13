@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(95, 116, 159);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#navbarNavAltMarkup.collapse {
+  background-color: rgba(95, 116, 159, 0.4);
+  padding: 15px;
+}
+
+.logoTextSmall {
+  color: #4d4d4d;
+}
+.purpleText {
+  color: #3f4f6d;
+}
+
+a.nav-link {
+  text-underline-offset: 10px;
+}
+
+article.h100 {
+  min-height: 100vh;
+}
+
+article {
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+h1 {
+  font-size: 3rem;
+  position: absolute;
+  top: 40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+#home {
+  background-image: url("./public/bckImageHome.png");
+}
+
+#history {
+  background-image: url("./public/bckImageHistory.png");
+}
+
+.historyText {
+  position: absolute;
+  top: 15%;
+}
+
+.number {
+  font-size: 7rem;
+}
+
+.overDot {
+  position:relative;
+  bottom: 2rem;
+  right: 2.5rem;
+}
+
+.containerCarousel {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(95, 116, 159, 0.4);
+}
+
+.carouselSize {
+  width: 75%;
+}
+
+.teamText {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.bgColorTabs {
+  background-color: #3f4f6d;
+}
+
+#mountain1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./public/mountain1.png");
+}
+
+#mountain2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("./public/mountain2.png");
+}
+
+.copyrightText {
+  font-size: 0.7rem;
+}
+div.colorcover {
+  background-color: rgba(23, 36, 68, 0.7);
+  z-index:85;
+  position:absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:100%;
+ }
+
+ footer {
+  position:relative;
+ }
+
+@media only screen and (min-width: 600px) {
+  #navbarNavAltMarkup.collapse  {
+    background-color: rgba(95, 116, 159, 0);
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  .carouselSize {
+    width: 30%;
+  }
+
+  .nav-pills .nav-link.active {
+    padding: 20px 10px;
+    background-color: #b0b4be;
+    z-index: 3;
+    text-decoration: underline;
+    color: #3f4f6d;
+
+  }
+  .heightTabDesktop {
+    height: 600px;
+    padding-top: 100px;
+  }
+
+  button.nav-link {
+    color: #b0b4be;
+  }
+
+
+}
