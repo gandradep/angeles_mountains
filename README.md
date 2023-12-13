@@ -5,7 +5,7 @@ Welcome to the Mountain Hiking Planner, an example web application designed to h
 
 ## Built With
 
-- Html, Css.
+- Html, Css, Bootstrap.
 
 ## Future Features
 - Make the webpage dynamic by generating the Mountain Trips from a JavaScript object.
